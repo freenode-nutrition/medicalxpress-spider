@@ -1,4 +1,5 @@
 from pathlib import Path
+import time
 from urllib.parse import urlparse
 
 import scrapy
@@ -17,4 +18,5 @@ class Spider(scrapy.Spider):
 
         next_page = response.css('li.page-item:nth-child(2) a::attr("href")').get()
         if next_page is not None:
+            time.sleep(1)
             yield response.follow(next_page, self.parse)
