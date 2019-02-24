@@ -18,5 +18,5 @@ class Spider(scrapy.Spider):
 
         next_page = response.css('li.page-item:nth-child(2) a::attr("href")').get()
         if next_page is not None:
-            time.sleep(1)
+            time.sleep(.5)
             yield response.follow(next_page, self.parse)
