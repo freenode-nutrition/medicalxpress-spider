@@ -5,7 +5,7 @@ The most recently scraped data exists in the repository as [**`./data/articles.c
 Note that the [license](LICENSE) does not apply to the scraped data. It applies only to the remainder of the repository.
 
 ## Generation
-Using a Python 3.7 virtual environment, install the requirements:
+Using a Python 3.7 virtual environment, first install the requirements:
 
     pip install -Ur requirements.in
 
