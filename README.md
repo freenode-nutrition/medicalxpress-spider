@@ -1,6 +1,7 @@
 # medicalxpress-spider
 **medicalxpress-spider** is an article URL and title gatherer for [Medical Xpress](https://medicalxpress.com/).
 The most recently scraped data exists in the repository as [**`./data/articles.csv`**](data/articles.csv).
+It was scraped on 2019-02-24.
 
 Note that the [license](LICENSE) does not apply to the scraped data. It applies only to the remainder of the repository.
 
